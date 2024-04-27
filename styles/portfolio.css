@@ -32,10 +32,10 @@ body{
 /* nav  related styles */
 
 nav {
-    display: flex;
+    display:flex ;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0  200px;
 }
 .nav-title{
   color: #181818;
@@ -43,7 +43,7 @@ nav {
   font-weight: 800;
 }
 nav > ul{
-  display: flex;
+  display: flex ;
   align-items: center;
 }
 nav li{
@@ -58,7 +58,7 @@ nav a{
 /* header related styles */
 .header{
   background-color: #fff8f3;
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: bottom right;
 
@@ -70,7 +70,7 @@ nav a{
   justify-content: space-between;
 }
 .banner .profile-pic{
-  width: 200px;
+  width: 600px;
 }
 .banner-content{
   max-width: 500px;
@@ -83,13 +83,13 @@ nav a{
 .banner-title{
   font-size: 85px;
   font-weight: 700;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .banner-description{
   margin-top: 5px;
 }
-/* man section styles */
+/* main section styles */
 
 main{
 max-width: 1140px;
@@ -166,3 +166,32 @@ margin: 30px;
   text-align: center;
   margin-top: 50px;
 }
+
+/* footer Styles */
+
+footer{
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+.footer-column{
+  width: 50%;
+}
+
+.social-links a{
+ margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"] , textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+}
+
